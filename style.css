@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+}
+  h1{
+    text-decoration: none;
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding:20px;
+  }
+  a{
+    text-decoration: none;
+    color: Black;
+  }
+  .saw{
+    color: grey;
+  }
+  #active{
+    color: black;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+  #grid ol{
+    border-right: 1px solid grey;
+    width: 150px;
+    margin: 0;
+    padding: 20px;
+    padding-left: 35px;
+  }
+  #article{
+    display:grid;
+    padding-left: 30px;
+  }
+  #CenterList{
+    text-align: center;
+    list-style-type: none;
+    padding-right: 40px;
+  }
+  #DarkButton{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+  #DarkmodeButton{
+    background-color: Black;
+    color: white;
+    height: 25px;
+    width: 180px;
+  }
+  @media(max-width:800px){
+    #grid{
+      display: block;
+    }
+    #grid ol{
+      border-right: none;
+    }
+    h1{
+  border-bottom: none;
+    }
+    #DarkmodeButton{
+      height: 25px;
+      width: 150px;
+    }
